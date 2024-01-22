@@ -86,7 +86,7 @@ const App = () => {
       {!isLoggedIn ? (
         <div class="container">
           <div class="card">
-            <h2>Login</h2>
+            <h2>Login new</h2>
             <form>
               <input
                 type="text"

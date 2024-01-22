@@ -59,7 +59,7 @@ self.addEventListener("fetch", (event) => {
   }
 });
 
-self.addEventListener("push", (event) => {
+self.addEventListener("fetch", (event) => {
   const notification = event.data.text();
   const convertParse = JSON.parse(notification);
   const options = {
