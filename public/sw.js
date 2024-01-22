@@ -33,7 +33,10 @@ self.addEventListener("push", (event) => {
 
   if (Object.keys(convertParse).length > 0) {
     event.waitUntil(
-      self.registration.showNotification(convertParse.title, options)
+      self.registration.showNotification(
+        convertParse.title,
+        convertParse.notification
+      )
     );
   }
 });
