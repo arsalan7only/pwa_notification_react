@@ -5,10 +5,12 @@ const RUNTIME = "runtime";
 const PRECACHE_URLS = [
   "/index.html",
   "/",
+  "./criket.jpg",
   "/barcode192.png",
   "/barcode256.png",
   "/barcode384.png",
   "/barcode512.png",
+  "fulcrumdigital.jpg",
 ];
 
 // Using install handler for precaching.
