@@ -18,7 +18,7 @@ export default function swDev(config) {
 
 function registerValidSW(swUrl, config) {
   navigator.serviceWorker
-    .register()
+    .register(swUrl)
     .then((registration) => {
       // Registration was successful.
       registration.onupdatefound = () => {
