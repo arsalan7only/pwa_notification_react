@@ -104,9 +104,7 @@ const App = () => {
                 onChange={(e) => setPassword(e.target.value)}
                 required
               />
-              <button type="submit" onClick={(e) => handleSubmit(e)}>
-                Login
-              </button>
+              <button onClick={(e) => handleSubmit(e)}>Login</button>
             </form>
           </div>
         </div>
