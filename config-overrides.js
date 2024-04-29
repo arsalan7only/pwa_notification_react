@@ -90,13 +90,14 @@ const cspHtmlWebpackPlugin = require("csp-html-webpack-plugin");
 const { webpack } = require("react-app-rewired/config-overrides");
 
 const cspConfigPolicy = {
-  "default-src": "'self'",
+  "default-src": ["'*'"],
   "script-src": ["'self' 'unsafe-inline'"],
   "style-src": ["'self' 'unsafe-inline'"],
   "object-src": "'none'",
   "img-src": ["'self'"],
   "media-src": ["'self'"],
   "font-src": ["'self'"],
+  "frame-ancestors": ["'none'"],
 };
 
 function addCspHtmlWebPackPlugin(config) {
