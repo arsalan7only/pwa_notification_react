@@ -94,7 +94,7 @@ const cspConfigPolicy = {
   "script-src": ["'self' 'unsafe-inline'"],
   "style-src": ["'self' 'unsafe-inline'"],
   "object-src": "'none'",
-  "img-src": ["'self'"],
+  "img-src": ["'*'"],
   "media-src": ["'self'"],
   "font-src": ["'self'"],
   "frame-ancestors": ["'none'"],
