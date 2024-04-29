@@ -91,8 +91,8 @@ const { webpack } = require("react-app-rewired/config-overrides");
 
 const cspConfigPolicy = {
   "default-src": "'none'",
-  "script-src": ["'unsafe'"],
-  "style-src": ["'unsafe'"],
+  "script-src": ["'inline'"],
+  "style-src": ["'inline'"],
   "object-src": "'none'",
   "img-src": ["'self'"],
   "media-src": ["'self'"],
