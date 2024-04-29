@@ -91,8 +91,8 @@ const { webpack } = require("react-app-rewired/config-overrides");
 
 const cspConfigPolicy = {
   "default-src": "'none'",
-  "script-src": ["'self'"],
-  "style-src": ["'self'"],
+  "script-src": ["'unsafe'"],
+  "style-src": ["'unsafe'"],
   "object-src": "'none'",
   "img-src": ["'self'"],
   "media-src": ["'self'"],
@@ -100,7 +100,7 @@ const cspConfigPolicy = {
 };
 
 function addCspHtmlWebPackPlugin(config) {
-  if (process.env.NODE_ENV == "production") {
+  if (process.env.NODE_ENV == "development") {
     config.plugins.push(new cspHtmlWebpackPlugin(cspConfigPolicy));
   }
   return config;
