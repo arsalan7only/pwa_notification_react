@@ -93,6 +93,23 @@ const cspConfigPolicy = {
   "default-src": ["'self'"],
   "script-src": ["'self'"],
   "style-src": ["'self'"],
+  "img-src": ["'self'"],
+  "connect-src": ["'self'"],
+  "font-src": ["'self'"],
+  "object-src": ["'self'"],
+  "media-src": ["'self'"],
+  "frame-src": ["'self'"],
+  sandbox: ["'allow-forms' 'allow-scripts'"],
+  "report-uri": ["'self'"],
+  "child-src": ["'self'"],
+  "base-uri": ["'self'"],
+  "form-action": ["'self'"],
+  "form-action": ["'self'"],
+  "frame-ancestors": ["'none'"],
+  "plugin-types": ["'application/pdf'"],
+  "base-uri": ["'self'"],
+  "manifest-src": ["'none'"],
+  "worker-src": ["'none'"],
 };
 
 function addCspHtmlWebPackPlugin(config) {
