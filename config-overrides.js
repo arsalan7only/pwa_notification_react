@@ -99,7 +99,6 @@ const cspConfigPolicy = {
   "object-src": ["'self'"],
   "media-src": ["'self'"],
   "frame-src": ["'self'"],
-  "report-uri": ["'self'"],
   "child-src": ["'none'"],
   "base-uri": ["'none'"],
   "form-action": ["'none'"],
