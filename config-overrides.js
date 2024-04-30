@@ -90,10 +90,10 @@ const cspHtmlWebpackPlugin = require("csp-html-webpack-plugin");
 const { webpack } = require("react-app-rewired/config-overrides");
 
 const cspConfigPolicy = {
-  "default-src": ["'self'"],
+  "default-src": ["'none'"],
   "script-src": ["'self'"],
   "style-src": ["'self'"],
-  "img-src": ["'self'"],
+  "img-src": ["'*'"],
   "connect-src": ["'self'"],
   "font-src": ["'self'"],
   "object-src": ["'self'"],
@@ -101,10 +101,9 @@ const cspConfigPolicy = {
   "frame-src": ["'self'"],
   sandbox: ["'allow-forms' 'allow-scripts'"],
   "report-uri": ["'self'"],
-  "child-src": ["'self'"],
-  "base-uri": ["'self'"],
-  "form-action": ["'self'"],
-  "form-action": ["'self'"],
+  "child-src": ["'none'"],
+  "base-uri": ["'none'"],
+  "form-action": ["'none'"],
   "frame-ancestors": ["'none'"],
   "plugin-types": ["'application/pdf'"],
   "base-uri": ["'self'"],
