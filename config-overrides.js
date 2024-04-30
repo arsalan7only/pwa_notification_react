@@ -91,8 +91,8 @@ const { webpack } = require("react-app-rewired/config-overrides");
 
 const cspConfigPolicy = {
   "default-src": ["'self'"],
-  "script-src": ["'self' 'unsafe-inline'"],
-  "style-src": ["'self' 'unsafe-inline'"],
+  "script-src": ["'self'"],
+  "style-src": ["'self'"],
 };
 
 function addCspHtmlWebPackPlugin(config) {
