@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
+import { LOGO } from "./logo512.png";
 const App = () => {
   const [username, setUserName] = useState("");
   const [password, setPassword] = useState("");
@@ -83,6 +84,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <img src={LOGO} />
       <h1>Hello</h1>
       {!isLoggedIn ? (
         <div class="container">
