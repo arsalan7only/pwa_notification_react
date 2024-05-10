@@ -96,15 +96,9 @@ const cspConfigPolicy = {
   "img-src": ["'slef'", "data:"],
   "connect-src": ["'self'", "https://fakestoreapi.com/products"],
   "font-src": ["'self'"],
-  "object-src": ["'self'"],
-  "media-src": ["'self'"],
   "frame-src": ["'self'"],
-  "child-src": ["'none'"],
-  "base-uri": ["'none'"],
-  "form-action": ["'none'"],
-  "base-uri": ["'self'"],
+  "form-action": ["'self'"],
   "manifest-src": ["'self'"],
-  "worker-src": ["'self'"],
 };
 
 function addCspHtmlWebPackPlugin(config) {
