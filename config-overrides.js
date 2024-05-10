@@ -92,9 +92,9 @@ const { webpack } = require("react-app-rewired/config-overrides");
 const cspConfigPolicy = {
   "default-src": ["'none'"],
   "script-src": ["'self'"],
-  "style-src": ["'self'"],
+  "style-src": ["'self'", "*.googleapis.com"],
   "img-src": ["'slef'", "data:"],
-  "connect-src": ["'self'"],
+  "connect-src": ["'self'", "https://fakestoreapi.com/products"],
   "font-src": ["'self'"],
   "object-src": ["'self'"],
   "media-src": ["'self'"],
