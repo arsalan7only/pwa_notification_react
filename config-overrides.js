@@ -93,7 +93,7 @@ const cspConfigPolicy = {
   "default-src": ["'none'"],
   "script-src": ["'self'"],
   "style-src": ["'self'"],
-  "img-src": ["'none'"],
+  "img-src": ["'slef'"],
   "connect-src": ["'self'"],
   "font-src": ["'self'"],
   "object-src": ["'self'"],
