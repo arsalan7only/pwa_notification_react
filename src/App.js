@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
+import "./home.scss";
 import LOGO from "./logo512.png";
 const App = () => {
   const [username, setUserName] = useState("");

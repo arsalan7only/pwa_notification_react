@@ -103,8 +103,8 @@ const cspConfigPolicy = {
   "base-uri": ["'none'"],
   "form-action": ["'none'"],
   "base-uri": ["'self'"],
-  "manifest-src": ["'none'"],
-  "worker-src": ["'none'"],
+  "manifest-src": ["'self'"],
+  "worker-src": ["'self'"],
 };
 
 function addCspHtmlWebPackPlugin(config) {
