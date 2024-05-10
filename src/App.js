@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import { LOGO } from "./logo512.png";
+import LOGO from "./logo512.png";
 const App = () => {
   const [username, setUserName] = useState("");
   const [password, setPassword] = useState("");
