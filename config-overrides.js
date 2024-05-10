@@ -96,7 +96,7 @@ const cspConfigPolicy = {
     "'self'",
     "https://cdnjs.cloudflare.com",
     "https://fonts.gstatic.com",
-    "https://fonts.googleapis.com/css?family=Handlee",
+    "https://fonts.googleapis.com/css",
   ],
   "img-src": ["'slef'", "data:"],
   "connect-src": ["'self'", "https://fakestoreapi.com/products"],
