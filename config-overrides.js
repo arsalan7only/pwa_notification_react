@@ -102,6 +102,7 @@ const cspConfigPolicy = {
   "connect-src": ["'self'", "https://fakestoreapi.com/products"],
   "font-src": [
     "'self'",
+    "https://fonts.gstatic.com/s/handlee/v18/-F6xfjBsISg9aMakPm3wow.woff2",
     "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/fonts/slick.woff",
     "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/fonts/slick.ttf",
   ],
