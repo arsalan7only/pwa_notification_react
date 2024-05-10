@@ -98,7 +98,7 @@ const cspConfigPolicy = {
     "https://fonts.gstatic.com",
     "https://fonts.googleapis.com/css",
   ],
-  "img-src": ["'slef'", "data:"],
+  "img-src": ["slef", "data:"],
   "connect-src": ["'self'", "https://fakestoreapi.com/products"],
   "font-src": [
     "'self'",
