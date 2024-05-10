@@ -82,6 +82,11 @@ const App = () => {
     });
   };
 
+  useEffect(() => {
+    fetch("https://fakestoreapi.com/products")
+      .then((res) => res.json())
+      .then((json) => console.log(json));
+  }, []);
   return (
     <div className="App">
       <img src={LOGO} />
